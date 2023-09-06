@@ -1,0 +1,41 @@
+/* App.css */
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+button {
+  background-color: white;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  display: flex;
+  justify-content: flex-start;
+}
+
+/* Gece Teması */
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* Bu, sayfanın yatay kaydırma çubuğunu gizler */
+}
+.navBar {
+  display: flex;
+  flex-direction: row;
+  margin-left: 5px;
+  background-color: blue;
+  display: flex;
+  justify-content: space-between;
+  margin: 0; /* Üst, sağ, alt ve sol kenar boşluklarını sıfırlar */
+  padding: 0;
+  justify-content: flex-start;
+}
+.navBar p {
+  margin: 25px;
+  color: white;
+}
